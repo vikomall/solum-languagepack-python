@@ -5,5 +5,5 @@ pip help
 [[ $? != 0 ]] && echo python-pip is not installed. && exit 1
 
 # Install dependencies from app requirements file
-cd /app/proxy
+#cd /app/proxy
 #pip install -r requirements.txt
