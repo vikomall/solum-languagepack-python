@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Check if pip is installed
-#pip help
-#[[ $? != 0 ]] && echo python-pip is not installed. && exit 1
+pip help
+[[ $? != 0 ]] && echo python-pip is not installed. && exit 1
 
 # Install dependencies from app requirements file
-#cd /app/proxy
-#pip install -r requirements.txt
+cd /app
+pip install -r requirements.txt
